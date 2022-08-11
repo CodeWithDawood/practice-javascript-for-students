@@ -1,7 +1,7 @@
 // var ab= 10;
 
 // function sum(a,b,c){
-    
+
 //     f=4;
 //     d=a+b+c+ab+f;
 //     // a5 b5 c6 ab10 f4 
@@ -36,13 +36,72 @@
 // console.log("abc:", abc)
 
 
-
-// arr1=[0,1,2,3,4,5,6,7,8,9];
+//0 1 2 1 2 3  
+// arr1=[1,2,3,4,5,6,7,8,9];
 // console.log( "initial arr1:", arr1);
-// var a= arr1.splice(2,3,"hello world");
-// // var a= arr1.splice(2,3,"hello world");
-// console.log( "2nd arr1:", arr1)
+// var a= arr1.splice(2,6,"hello world");
+// var a= arr1.splice(index, index replace, value);
+// console.log( "updated arr1:", arr1)
 // console.log( "value of a:", a)
+
+// var arr=[1,2,3,4,5,6,7,8,9]
+// for()
+
+
+// function Student(first, last, age, cls){
+//     this.firstName = first;
+//     this.lastName = last;
+//     this.age= age;
+//     this.class= cls;
+// }
+// var hamza = new Student("MAQ", "Hamza", 20,15);
+// console.log(hamza);
+
+
+
+
+// var a = false;
+// var b = true;
+// var c= false;
+// var d = true;
+// var e = false;
+// if (a) {
+//     console.log("false a:   IF:   saba strictly start learning from videos")
+// } else if(b) {
+//     console.log("true  b: else-if:   agr complete hu gae ha tu adv. js parho")
+// }else if(c) {
+//     console.log("FALSE c: else-if:   agr complete hu gae ha tu adv. js parho")
+// }else if(d) {
+//     console.log("true  d: else-if:   agr complete hu gae ha tu adv. js parho")
+// }else if(e) {
+//     console.log("e variable ")
+// } else {
+//     console.log("else")
+// }
+
+
+
+
+// var a = false;
+// var b = true;
+// var c= false;
+// var d = true;
+// var e = false;
+
+var day =2;
+switch(day){
+    case 2:
+        console.log("case 2 matched")
+        
+    case 4:
+        console.log("case 4 matched");
+        
+    case 3:
+        console.log("case 3 matched")
+        break;
+
+    default: console.log("default")
+} 
 
 
 
